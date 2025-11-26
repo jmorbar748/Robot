@@ -7,6 +7,7 @@ public record Zona (int ancho, int alto) {
     public static final int ANCHO_MAXIMO = 100;
     public static final int ALTO_MINIMO = 10;
     public static final int ALTO_MAXIMO = 100;
+    public static final Zona ZONA_POR_DEFECTO = new Zona(10, 10);
 
     // Constructores
     public Zona {
